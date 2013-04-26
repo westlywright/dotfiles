@@ -19,6 +19,7 @@ alias gb="git checkout -b"
 alias goto="git checkout"
 alias gm="git merge"
 alias www="cd ~/Sites/www"
+alias disc="git checkout -f"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
