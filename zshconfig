@@ -14,12 +14,17 @@ ZSH_THEME="jonathan"
 alias gs="git status"
 alias pull="git pull"
 alias push="git push"
-alias m="git add .;git commit -m"
+alias m="git add -A .; git commit -m"
 alias gb="git checkout -b"
 alias goto="git checkout"
 alias gm="git merge"
 alias www="cd ~/Sites/www"
 alias disc="git checkout -f"
+alias log="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gbl="git branch -v"
+
+alias slime="open -a 'Sublime Text 2'"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
