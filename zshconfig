@@ -22,6 +22,8 @@ alias www="cd ~/Sites/www"
 alias disc="git checkout -f"
 alias log="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gbl="git branch -v"
+alias stage="git add -i"
+alias ms="git commit -m"
 
 alias slime="open -a 'Sublime Text 2'"
 
@@ -41,7 +43,7 @@ alias slime="open -a 'Sublime Text 2'"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
