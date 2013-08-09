@@ -1,0 +1,28 @@
+{
+    // If true, lines with errors or warnings will have a gutter mark.
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_gutter_marks_theme": "simple",    
+    "javascript_linter": "jshint",
+
+    // jshint: options for linting JavaScript. See http://jshint.com/#docs for more info.
+    // By deault, eval is allowed.
+    "jshint_options":
+    {
+        "evil": true,
+        "regexdash": true,
+        "browser": true,
+        "wsh": true,
+        "trailing": true,
+        "sub": true,
+        "eqeqeq": true,
+        "curly": true,
+        "undef": true,
+        "jquery": "$",
+        "quotmark": "single",
+        "unused": true,
+        "globals": {
+            "define": false,
+            "require": false
+        }
+    }
+}
