@@ -1,0 +1,1 @@
+/Users/arion/Dropbox/Mackup/.zshrc
